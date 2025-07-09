@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import C1 from './ClassComponent/C1.jsx'
+import App2 from './APP2/App2.jsx';
+import Counter from './Counter/counter.jsx';
+import Properties from './Properties/Properties.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <C1/>
+      <App2/>
+      <Counter/>
+      <Properties name="John Doe" age={30} tech="react" />
+      {/* Properties(Jon,30) */}
     </div>
   );
 }
