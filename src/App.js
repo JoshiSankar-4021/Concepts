@@ -7,7 +7,8 @@ import './App.css';
 //import Padding from './CSS/Padding/Inline/Pdding';
 //import Border from './CSS/Border/Internal/Boder.jsx';
 // import Margin from './CSS/Margin/External/Margin.jsx';
-import DisplayImage from './DisplayImages/DisplyImage.jsx';
+//import DisplayImage from './DisplayImages/DisplyImage.jsx';
+import Box from './Box/Box.jsx'
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,7 @@ function App() {
       <Counter/>
       <Properties name="John Doe" age={30} tech="react" /> */}
       {/* Properties(Jon,30) */}
-      <DisplayImage/>
+      <Box/>
     </div>
   );
 }
