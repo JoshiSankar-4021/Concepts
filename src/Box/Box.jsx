@@ -2,7 +2,7 @@ import React from 'react';
 
 function Box() {
     const labelStyle = {
-        display: 'flex',
+        display: 'block',
         fontSize: '14px',
         fontWeight: 'bold',
         color: 'green',
@@ -13,12 +13,11 @@ function Box() {
 
     const inputStyling = {
         display: 'block',
-        width: '150px',
+        width: '95%',
         height: '25px',
         border: '2px solid black',
         borderRadius: '5px',
-        margin: '5px',
-        padding: '2px'
+        margin: '1px',
     };
 
     const [formData, setFormData] = React.useState({
@@ -44,11 +43,13 @@ function Box() {
         <div>
             <div style={{
                 width: '300px',
-                height: '200px',
+                height: '150px',
                 border: '2px solid #ccc',
                 borderRadius: '5px',
-                margin: '100px',
-                padding: '10px'
+                marginTop:'100px',
+                marginLeft:'150px',
+                paddingRight:'1px',
+                padding: '1px'
             }}>
                 <form>
                     <label style={labelStyle}>user mail</label>
@@ -72,13 +73,13 @@ function Box() {
                     <button
                         onClick={handleSubmit}
                         style={{
-                            width: '20%',
+                            width: '100%',
                             height: '25px',
                             border: '2px solid black',
                             borderRadius: '5px',
-                            backgroundColor: '#f26624',
+                            backgroundColor: 'orange',
                             color: '#fff',
-                            marginTop: '10px',
+                            marginTop: '1px',
                             cursor: 'pointer'
                         }}
                     >
