@@ -16,8 +16,9 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<Routing/>}/>
-      <Route path="/displayimages" element={<DisplayImage/>}/>
-      <Route path="/border" elements={<Border/>}/>
+      <Route path='/counter' element={<Counter/>}/>
+      <Route path='/displayimages' element={<DisplayImage/>}/>
+      <Route path='/Rendering' element={<Rendering/>}/>
     </Routes>
   );
 }

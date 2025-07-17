@@ -7,11 +7,12 @@ var navigate=useNavigate();
             <div>
                 <h1>USE NAVIGATE</h1>
             <button onClick={()=>{navigate('/counter')}}>Counter</button>
+            <button onClick={()=>{navigate('/counter')}}>Display Images</button>
             <button onClick={()=>{navigate('/displayimages')}}>Display Images</button>
             </div>
             <div>
                 <h1>NAV LINK</h1>
-                <NavLink to='/'>Counter</NavLink><br></br>
+                <NavLink to='/counter'>Counter</NavLink><br></br>
                 <NavLink to='displayimages'>Display Images</NavLink>
             </div>
             <div>
