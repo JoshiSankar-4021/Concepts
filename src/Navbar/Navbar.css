@@ -1,0 +1,18 @@
+.NavLinkStyle{
+    text-decoration: none;
+    color:black;
+}
+.Navbar{
+    display:flex;
+    gap:8px;
+}
+
+.NavItem{
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.NavLinkStyle.active{
+    color: orange;
+    font-weight:bold;
+}

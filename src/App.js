@@ -12,14 +12,20 @@ import DisplayImage from './DisplayImages/DisplyImage.jsx';
 import {Routes,Route} from 'react-router-dom'
 import Rendering from './Rendering/RenderData.jsx'
 import Routing from './Routing/Routing.jsx'
+import Nav from './Navbar/Navbar.jsx'
+import SideNav from './Sidenavbar/Sidenav.jsx';
 function App() {
   return (
+    <>
+  <SideNav/>
+  <Nav/>
     <Routes>
       <Route path='/' element={<Routing/>}/>
       <Route path='/counter' element={<Counter/>}/>
       <Route path='/displayimages' element={<DisplayImage/>}/>
       <Route path='/Rendering' element={<Rendering/>}/>
     </Routes>
+      </>
   );
 }
 
