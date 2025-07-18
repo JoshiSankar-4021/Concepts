@@ -14,16 +14,18 @@ import Rendering from './Rendering/RenderData.jsx'
 import Routing from './Routing/Routing.jsx'
 import Nav from './Navbar/Navbar.jsx'
 import SideNav from './Sidenavbar/Sidenav.jsx';
+import Animations from'./Animations/Animation.jsx';
 function App() {
   return (
     <>
-  <SideNav/>
+  {/* <SideNav/> */}
   <Nav/>
     <Routes>
       <Route path='/' element={<Routing/>}/>
       <Route path='/counter' element={<Counter/>}/>
       <Route path='/displayimages' element={<DisplayImage/>}/>
       <Route path='/Rendering' element={<Rendering/>}/>
+      <Route path='/Animations' element={<Animations/>}/>
     </Routes>
       </>
   );

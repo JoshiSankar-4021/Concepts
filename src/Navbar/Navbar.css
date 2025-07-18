@@ -16,3 +16,13 @@
     color: orange;
     font-weight:bold;
 }
+
+.NavItem:hover{
+    
+    border:3px solid black;
+    border-radius: 5px;
+}
+.NavLinkStyle:hover{
+    color:orangered;
+    font-weight:bold;
+}

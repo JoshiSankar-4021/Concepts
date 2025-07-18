@@ -16,6 +16,9 @@ function Navbar(){
             <div className="NavItem">
              <NavLink to='/Rendering'className="NavLinkStyle">Rendering</NavLink>
             </div>
+            <div className="NavItem">
+             <NavLink to='/Animations'className="NavLinkStyle">Animations</NavLink>
+            </div>
         </div>
     );
 }
