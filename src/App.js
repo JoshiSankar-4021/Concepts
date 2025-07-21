@@ -15,6 +15,7 @@ import Routing from './Routing/Routing.jsx'
 import Nav from './Navbar/Navbar.jsx'
 import SideNav from './Sidenavbar/Sidenav.jsx';
 import Animations from'./Animations/Animation.jsx';
+import Animationspack from './Animationspack/Animationpack.jsx';
 function App() {
   return (
     <>
@@ -26,6 +27,8 @@ function App() {
       <Route path='/displayimages' element={<DisplayImage/>}/>
       <Route path='/Rendering' element={<Rendering/>}/>
       <Route path='/Animations' element={<Animations/>}/>
+      <Route path='/Animationspack' element={<Animationspack/>}/>
+
     </Routes>
       </>
   );

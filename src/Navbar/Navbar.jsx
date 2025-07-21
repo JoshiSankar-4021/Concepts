@@ -19,6 +19,9 @@ function Navbar(){
             <div className="NavItem">
              <NavLink to='/Animations'className="NavLinkStyle">Animations</NavLink>
             </div>
+             <div className="NavItem">
+             <NavLink to='/Animationspack'className="NavLinkStyle">Animationspack</NavLink>
+            </div>
         </div>
     );
 }
